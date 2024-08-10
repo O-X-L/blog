@@ -20,6 +20,7 @@ source_suffix = {
 }
 html_theme_options = {
     'banner_text': '<a href="https://www.oxl.at">Über OXL</a> | '
+                   '<a href="https://docs.o-x-l.at">Docs</a> | '
                    '<a href="https://github.com/O-X-L/blog/issues/new">Fehler melden</a> | '
                    '<a href="https://blog.o-x-l.com">🇬🇧 Switch to English</a>'
 }
