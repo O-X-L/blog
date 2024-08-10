@@ -131,3 +131,5 @@ Schlußendlich konnten wir USB-Kameras einfach über einen kleinen HTTP Server t
 
 
 Nun kann man `den Proxy <https://github.com/bluenviron/mediamtx/releases>`_ starten und die Kamera über den Browser Live-Streamen: :code:`http://<HOST-IP>:8889/cam/`
+
+.. include:: ../_include/user_rath.rst
