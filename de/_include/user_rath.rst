@@ -1,5 +1,8 @@
 ----
 
+Anerkennung
+***********
+
 .. note::
     Wir hoffen der Artikel gefiehl Ihnen.
 

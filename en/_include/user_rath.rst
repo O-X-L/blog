@@ -1,5 +1,8 @@
 ----
 
+Credits
+*******
+
 .. note::
     We hope you enjoyed this article!
 
