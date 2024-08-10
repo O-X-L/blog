@@ -46,6 +46,8 @@ Voraussetzungen
 
 * Der Agent nutzt eine Chromium Browser für die Anzeige. Das Portal sollte auch über diesen gestreamt werden
 
+* Die Lösung soll, bis auf weiteres, nur direkte Verbindungen über private Netzwerke unterstützen.
+
 WebRTC
 ======
 
@@ -84,16 +86,16 @@ Danach sind wir auf die `Blueenviron Organisation auf GitHub <https://github.com
 
 Sie haben einen 'Media Proxy' in ihrem Repertoire: `MediaMTX <https://github.com/bluenviron/mediamtx>`_
 
-Da wir schon einige Erfahrungen mit Proxy-Lösungen gemacht habe, konnte wir uns gleich vorstellen, dass wir unsere speziellen Anforderungen damit umsetzen könnte.
+Da wir schon einige Erfahrungen mit Proxy-Lösungen gemacht haben, konnte wir uns gleich vorstellen, dass wir unsere speziellen Anforderungen damit umsetzen könnte.
 
 Schlußendlich konnten wir USB-Kameras einfach über einen kleinen HTTP Server teilen.
 
 1. Video Input Testen:
 
-    .. code-block:: bash
+.. code-block:: bash
 
-        ffmpeg -f video4linux2 -list_formats all -i /dev/video0
-        ffmpeg -f v4l2 -i /dev/video0 -input_format yuyv422 -video_size 640x480 -c:v copy /tmp/test_1.mkv
+    ffmpeg -f video4linux2 -list_formats all -i /dev/video0
+    ffmpeg -f v4l2 -i /dev/video0 -input_format yuyv422 -video_size 640x480 -c:v copy /tmp/test_1.mkv
 
 
 2. Das `Config-File <https://github.com/bluenviron/mediamtx/blob/main/mediamtx.yml>`_ anpassen:

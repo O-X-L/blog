@@ -2,8 +2,8 @@
 OXL Documentation
 *****************
 
-Grundlegendes
-#############
+Base
+####
 
 .. toctree::
     :glob:

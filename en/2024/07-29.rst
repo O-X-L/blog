@@ -16,7 +16,7 @@ OXL Screen-Cloud Agent
 Intro
 *****
 
-A customer expressed the wish to connect two locations with one 'portal'.
+A customer expressed the wish to connect two locations with a 'screen-portal'.
 
 It should function like the `'Dublin-NewYork' Portal <https://www.ireland.ie/en/usa/the-portal-connecting-dublin-and-new-york-city-in-real-time/>`_.
 
@@ -42,18 +42,20 @@ Some of them:
 Prerequisites
 =============
 
-* The Agent is programmed in `GoLang <https://go.dev>`_ - a solution in this programming language would be easy to integrate
+* The Agent is programmed in `GoLang <https://go.dev>`_ - therefore a solution in this programming language would be easy to integrate.
 
-* The agent uses a Chromium browser for the display. The portal should also be streamed via this browser
+* The agent uses a Chromium browser to the display its content. The portal should also be streamed via this browser.
+
+* The solution should, for now, only support direct connections over private networks.
 
 WebRTC
 ======
 
-WebRTC is used today by meeting solutions, for example.
+Nowadays, WebRTC is often used by meeting-software.
 
-`The Protocol <https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Protocols>`_ allows clients to communicate directly via a peer-to-peer connection.
+`The Protocol <https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Protocols>`_ allows clients to communicate directly via a peer-to-peer connections.
 
-As a large amount of data is transferred during streaming, this is very useful for keeping the load on expensive server and network infrastructure low.
+As a large amount of data is transferred during streaming, this is very useful for keeping the load on expensive server- and network-infrastructure low.
 
 For this to work, however, the clients must establish their communication via an **ICE** server.
 
@@ -90,10 +92,10 @@ In the end, we were able to simply share USB cameras via a small HTTP server.
 
 1. Test the Video Input:
 
-    .. code-block:: bash
+.. code-block:: bash
 
-        ffmpeg -f video4linux2 -list_formats all -i /dev/video0
-        ffmpeg -f v4l2 -i /dev/video0 -input_format yuyv422 -video_size 640x480 -c:v copy /tmp/test_1.mkv
+    ffmpeg -f video4linux2 -list_formats all -i /dev/video0
+    ffmpeg -f v4l2 -i /dev/video0 -input_format yuyv422 -video_size 640x480 -c:v copy /tmp/test_1.mkv
 
 
 2. Modify the `Config-File <https://github.com/bluenviron/mediamtx/blob/main/mediamtx.yml>`_:
