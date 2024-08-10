@@ -6,4 +6,4 @@
     :glob:
     :maxdepth: 1
 
-    automation/*
+    2024/*
