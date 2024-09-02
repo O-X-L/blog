@@ -2,6 +2,14 @@
 OXL Documentation
 *****************
 
+2024
+####
+
+.. toctree::
+   :maxdepth: 2
+
+   index_2024
+
 Base
 ####
 
@@ -10,11 +18,3 @@ Base
     :maxdepth: 1
 
     base/*
-
-2024
-####
-
-.. toctree::
-   :maxdepth: 2
-
-   index_2024

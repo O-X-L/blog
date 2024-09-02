@@ -2,6 +2,14 @@
 OXL Dokumentation
 *****************
 
+2024
+####
+
+.. toctree::
+   :maxdepth: 2
+
+   index_2024
+
 Grundlegendes
 #############
 
@@ -10,11 +18,3 @@ Grundlegendes
     :maxdepth: 1
 
     base/*
-
-2024
-####
-
-.. toctree::
-   :maxdepth: 2
-
-   index_2024
