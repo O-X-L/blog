@@ -10,11 +10,11 @@ OXL Dokumentation
 
    index_2024
 
-Grundlegendes
-#############
+Rechtliches
+###########
 
 .. toctree::
     :glob:
     :maxdepth: 1
 
-    base/*
+    legal/*
