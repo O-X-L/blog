@@ -39,6 +39,8 @@ Info
 
 **Gewerberechtliche Vorschriften**: Gewerbeordnung (`www.ris.bka.gv.at <http://www.ris.bka.gv.at/>`_)
 
+**Mitgliedschaften bei der Wirschaftskammerorganisation**: `Mitglied der WKO <https://firmen.wko.at/oxl-it-services-eu/steiermark/?firmaid=7992d30b-2bd0-47c2-ad7e-48d6c33563c8>`_
+
 **Blattlinie**: Information über Produkte und Technologien, die wir als Unternehmen einsetzen, sowie Förderung des Absatzes derselben.
 
 ----
