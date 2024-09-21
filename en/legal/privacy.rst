@@ -31,6 +31,8 @@ When you visit our websites, the following categories of your data may be proces
 
 The processing of this data is necessary to ensure the security of the operation of the website and to ensure the functionality of the website from a technical point of view. Some of this data is collected using technical cookies. These technical cookies are only used to the extent necessary (§ 165 para. 3 TKG). The processing of this data is justified by our legitimate interest in the operation of our website (`Art 6<https://gdpr-info.eu/art-6-gdpr/>`_ para. 1 lit f GDPR).
 
+We store the data of people who visit our website for one year from the last contact.
+
 We may update this Privacy Policy from time to time to reflect, for example, changes to our practices or for other operational, legal or regulatory reasons.
 
 ----
