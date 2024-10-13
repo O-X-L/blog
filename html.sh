@@ -90,4 +90,6 @@ mv "${TMP_DIR}/de/"* "${DEST_DIR}/de/"
 touch "${DEST_DIR}/en/${TS}"
 touch "${DEST_DIR}/de/${TS}"
 
+rm -rf "$TMP_DIR"
+
 log 'FINISHED'
