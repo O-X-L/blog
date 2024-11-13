@@ -1,5 +1,7 @@
 # OXL Blog
 
+[![Uptime](https://status.oxl.at/api/v1/endpoints/1--oxl_blog/uptimes/7d/badge.svg)](https://status.oxl.at/endpoints/1--oxl_blog)
+
 DE 🇩🇪: [blog.o-x-l.at](https://blog.o-x-l.at)
 
 EN 🇬🇧: [blog.o-x-l.com](https://blog.o-x-l.com)
