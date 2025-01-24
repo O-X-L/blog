@@ -11,7 +11,7 @@ Info
 
 **Firmenname**: **OXL IT Services e.U.**
 
-**Inhaber**: Rath Pascal (Social Media: `LinkedIn <https://at.linkedin.com/in/6abb7d37-42f3-4a21-af43-60bc25e91bf0>`_)
+**Inhaber**: Rath Pascal (Social Media: `LinkedIn <https://www.linkedin.com/in/rath-pascal>`_)
 
 **E-Mail**: `kontakt@oxl.at <mailto:kontakt@oxl.at>`_
 
